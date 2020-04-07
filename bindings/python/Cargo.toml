@@ -15,10 +15,6 @@ rayon = "1.2.0"
 version = "0.8.4"
 features = ["extension-module"]
 
-[dependencies.tokenizers]
-version = "*"
-path = "../../tokenizers"
-
 [target.x86_64-apple-darwin]
 rustflags = [
   "-C", "link-arg=-undefined",
